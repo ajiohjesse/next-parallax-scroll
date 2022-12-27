@@ -1,0 +1,52 @@
+.wrapper {
+  position: relative;
+  background-color: red;
+  height: 600px;
+  overflow: hidden;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sun {
+  position: absolute;
+  z-index: 1;
+  bottom: 350px;
+  left: 50%;
+  opacity: 0.6;
+}
+
+.second {
+  z-index: 2;
+  bottom: 300px;
+  object-fit: contain;
+}
+
+.third {
+  z-index: 3;
+  bottom: 240px;
+  rotate: 5deg;
+}
+
+.fourth {
+  z-index: 4;
+  bottom: 220px;
+}
+
+.fifth {
+  z-index: 5;
+  bottom: 130px;
+}
+
+.sixth {
+  z-index: 6;
+  bottom: 100px;
+}
