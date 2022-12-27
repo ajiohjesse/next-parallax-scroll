@@ -9,7 +9,7 @@ import asset6 from '../public/SVG/Asset8.svg'
 import sun from '../public/SVG/sun.svg'
 import useRellax from '../hooks/useRellax'
 
-const cl = (...args) => {
+export const cl = (...args) => {
   return [...args, 'rellax'].join(' ')
 }
 

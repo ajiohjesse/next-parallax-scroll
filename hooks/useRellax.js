@@ -3,7 +3,9 @@ import Rellax from 'rellax'
 
 function useRellax() {
   useEffect(() => {
-    new Rellax('.rellax')
+    new Rellax('.rellax', {
+      horizontal: true,
+    })
   }, [])
 }
 
